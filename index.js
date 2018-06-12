@@ -3,7 +3,7 @@ var katzDeliLine = []
 function takeANumber(katzDeliLine, name){
   for (let i = 1; i < name.length +1; i++){
     katzDeliLine.push(name)
-    return 'Welcome, ' + name + '. You are number ' + i + ' in line.'
+    console.log ('Welcome, ' + name + '. You are number ' + i + ' in line.')
   }
 }
 
