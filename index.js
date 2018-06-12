@@ -22,6 +22,6 @@ function currentLine(line){
     for (let i = 0; i < line.length; i++){
       theLine.push(' ' + (i+1) + '. ' + line[i])
     }
-return 'The line is currently:' + theLine 
-  }  
+return 'The line is currently:' + theLine
+  }
 }
